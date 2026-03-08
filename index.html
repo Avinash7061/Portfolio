@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Kumar Jha — AI/ML Developer & Full Stack Engineer</title>
+    <meta name="description" content="Portfolio of Avinash Kumar Jha — B.Tech CSE (AI/ML) student, Full Stack Developer, and Healthcare AI Builder. Creator of MediFlow AI Triage System.">
+    <meta name="keywords" content="Avinash Kumar Jha, AI, ML, Full Stack Developer, Portfolio, BERT, Healthcare, MediFlow">
+    <meta name="author" content="Avinash Kumar Jha">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Avinash Kumar Jha — AI/ML Developer">
+    <meta property="og:description" content="B.Tech CSE (AI/ML) student building intelligent systems that make a difference.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="bg-particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>AKJ<span class="logo-bracket"> /&gt;</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="#contact" class="nav-cta">Let's Talk</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting animate-in">Hello, I'm</p>
+                <h1 class="hero-name animate-in delay-1">Avinash<br>Kumar Jha</h1>
+                <div class="hero-title-wrapper animate-in delay-2">
+                    <span class="hero-title-label">I build</span>
+                    <span class="hero-title-typed" id="typedText"></span>
+                    <span class="typed-cursor">|</span>
+                </div>
+                <p class="hero-description animate-in delay-3">
+                    B.Tech CSE (AI/ML) student at Vivekananda Global University, passionate about 
+                    building AI-powered solutions that solve real-world problems.
+                </p>
+                <div class="hero-actions animate-in delay-4">
+                    <a href="#projects" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        View Projects
+                    </a>
+                    <a href="https://github.com/Avinash7061" target="_blank" class="btn btn-ghost">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+                <div class="hero-stats animate-in delay-5">
+                    <div class="stat">
+                        <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="6">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="4">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Hackathons</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate-in delay-2">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-glow"></div>
+                    <img src="profile.jpg" alt="Avinash Kumar Jha" class="hero-photo">
+                    <div class="hero-image-ring"></div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <span>🧠</span> AI/ML
+                </div>
+                <div class="floating-badge badge-2">
+                    <span>⚛️</span> React
+                </div>
+                <div class="floating-badge badge-3">
+                    <span>🐍</span> Python
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">01. Introduction</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I'm a <strong>2nd year B.Tech CSE (AI/ML)</strong> student at 
+                        <strong>Vivekananda Global University, Jaipur</strong>, with a burning passion for 
+                        Artificial Intelligence and its potential to transform healthcare.
+                    </p>
+                    <p>
+                        My journey started with curiosity about how machines learn, which led me to build 
+                        <strong>MediFlow AI</strong> — a BERT-powered healthcare triage system that classifies 
+                        patient symptoms into urgency levels in real-time. I love working at the intersection 
+                        of <strong>Deep Learning, NLP, and Full Stack Development</strong>.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me participating in hackathons, exploring new AI research 
+                        papers, or building side projects that push the boundaries of what's possible with technology.
+                    </p>
+                    <div class="about-details">
+                        <div class="about-detail">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            <div>
+                                <span class="detail-label">University</span>
+                                <span class="detail-value">Vivekananda Global University</span>
+                            </div>
+                        </div>
+                        <div class="about-detail">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <div>
+                                <span class="detail-label">Degree</span>
+                                <span class="detail-value">B.Tech CSE (AI/ML) — 2nd Year</span>
+                            </div>
+                        </div>
+                        <div class="about-detail">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <div>
+                                <span class="detail-label">Focus Areas</span>
+                                <span class="detail-value">AI/ML, Deep Learning, NLP, Full Stack</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-window">
+                        <div class="code-window-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="code-filename">avinash.py</span>
+                        </div>
+                        <pre class="code-content"><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):
+        self.name = <span class="code-string">"Avinash Kumar Jha"</span>
+        self.role = <span class="code-string">"AI/ML Developer"</span>
+        self.university = <span class="code-string">"VGU, Jaipur"</span>
+        self.languages = [
+            <span class="code-string">"Python"</span>, <span class="code-string">"TypeScript"</span>,
+            <span class="code-string">"JavaScript"</span>, <span class="code-string">"Java"</span>, <span class="code-string">"C"</span>
+        ]
+
+    <span class="code-keyword">def</span> <span class="code-func">current_focus</span>(self):
+        <span class="code-keyword">return</span> {
+            <span class="code-string">"ai"</span>: [<span class="code-string">"BERT"</span>, <span class="code-string">"Transformers"</span>],
+            <span class="code-string">"web"</span>: [<span class="code-string">"React"</span>, <span class="code-string">"FastAPI"</span>],
+            <span class="code-string">"passion"</span>: <span class="code-string">"Healthcare AI"</span>
+        }</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-dark" id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">02. Expertise</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- AI/ML -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">🧠</div>
+                        <h3>AI / Machine Learning</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">HuggingFace Transformers</span>
+                        <span class="skill-tag">BERT / NLP</span>
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">Deep Learning</span>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">💻</div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">⚛️</div>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vite</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Framer Motion</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Backend & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Git / GitHub</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">03. Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-list">
+                <!-- Project 1: MediFlow AI -->
+                <div class="project-card featured">
+                    <div class="project-content">
+                        <span class="project-label">🏆 Featured Project</span>
+                        <h3 class="project-name">MediFlow AI — Healthcare Triage System</h3>
+                        <div class="project-description">
+                            <p>
+                                An AI-powered healthcare triage application that uses a <strong>fine-tuned BERT model</strong> 
+                                to classify patient symptoms into 4 urgency levels (Red/Orange/Yellow/White). Features 
+                                <strong>JWT authentication</strong>, multi-role access (Patient, Doctor, Hospital Admin), 
+                                real-time inference with confidence scores, and a modern React UI.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span>BERT</span><span>PyTorch</span><span>FastAPI</span><span>React</span><span>TypeScript</span><span>JWT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Avinash7061/AI_triage_App" target="_blank" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="project-mockup">
+                            <div class="mockup-header">
+                                <div class="mockup-dots"><span></span><span></span><span></span></div>
+                                <span class="mockup-url">mediflow-ai.app</span>
+                            </div>
+                            <div class="mockup-body">
+                                <div class="mockup-triage">
+                                    <div class="triage-display">
+                                        <div class="triage-level red">🔴 Emergency</div>
+                                        <div class="triage-level orange">🟠 Urgent</div>
+                                        <div class="triage-level yellow">🟡 Semi-urgent</div>
+                                        <div class="triage-level white">⚪ Home Care</div>
+                                    </div>
+                                    <div class="mockup-label">BERT Model Triage</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Agentic AI -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <span class="project-label">💡 AI Project</span>
+                        <h3 class="project-name">Agentic AI — Automated Workflow Engine</h3>
+                        <div class="project-description">
+                            <p>
+                                Backend infrastructure for an AI-powered web application that automates complex 
+                                workflows. Built intelligent agents capable of multi-step task execution using 
+                                Python and Flask.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span><span>Flask</span><span>AI Agents</span><span>n8n</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Avinash7061" target="_blank" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="project-mockup small">
+                            <div class="mockup-header">
+                                <div class="mockup-dots"><span></span><span></span><span></span></div>
+                            </div>
+                            <div class="mockup-body">
+                                <div class="agent-flow">
+                                    <div class="agent-node">📥 Input</div>
+                                    <div class="agent-arrow">→</div>
+                                    <div class="agent-node highlight">🤖 Agent</div>
+                                    <div class="agent-arrow">→</div>
+                                    <div class="agent-node">📤 Output</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: EduBridge -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <span class="project-label">🎓 Full Stack Project</span>
+                        <h3 class="project-name">EduBridge — Educational Platform</h3>
+                        <div class="project-description">
+                            <p>
+                                An educational platform designed to bridge learning gaps and connect students 
+                                with quality resources. Built with a focus on accessibility and user experience.
+                            </p>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span><span>Web Development</span><span>Education</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Avinash7061/Edubridge" target="_blank" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="project-mockup small">
+                            <div class="mockup-header">
+                                <div class="mockup-dots"><span></span><span></span><span></span></div>
+                            </div>
+                            <div class="mockup-body">
+                                <div class="edu-visual">
+                                    <div class="edu-icon">🎓</div>
+                                    <div class="edu-bars">
+                                        <div class="edu-bar" style="width:90%"></div>
+                                        <div class="edu-bar" style="width:70%"></div>
+                                        <div class="edu-bar" style="width:85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-dark" id="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">04. Journey</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Frontend Developer Intern</h3>
+                                <span class="timeline-company">Gyaanpeeth</span>
+                            </div>
+                            <span class="timeline-date">June 2025 — July 2025</span>
+                        </div>
+                        <p class="timeline-description">
+                            Completed a one-month internship focused on building responsive and interactive 
+                            web interfaces. Gained hands-on experience with modern frontend technologies and 
+                            best practices in UI/UX development.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>B.Tech CSE (AI/ML)</h3>
+                                <span class="timeline-company">Vivekananda Global University, Jaipur</span>
+                            </div>
+                            <span class="timeline-date">2024 — Present</span>
+                        </div>
+                        <p class="timeline-description">
+                            Pursuing B.Tech in Computer Science & Engineering with specialization in 
+                            Artificial Intelligence and Machine Learning. Actively building AI projects, 
+                            participating in hackathons, and expanding expertise in deep learning and NLP.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>AI/ML</span><span>Deep Learning</span><span>NLP</span><span>Data Science</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">05. Achievements</span>
+                <h2 class="section-title">Certifications & Awards</h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>CodeXccelerate Hackathon</h3>
+                    <p>Gateway Education</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎮</div>
+                    <h3>Rajasthan IT Day Game Jam</h3>
+                    <p>Government of Rajasthan</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🔥</div>
+                    <h3>Code Red 4.0 Hackathon</h3>
+                    <p>ACIC-VGU Foundation</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🤖</div>
+                    <h3>Getting Started with AI</h3>
+                    <p>IBM SkillsBuild</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🌐</div>
+                    <h3>Rise of Multi-Agent Systems</h3>
+                    <p>IBM SkillsBuild</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>Gyaanpeeth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">06. Say Hello</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm always open to discussing new projects, AI innovations, hackathon collaborations, 
+                    or opportunities to be part of an amazing team. Feel free to reach out!
+                </p>
+                <a href="mailto:avinashkumarjha516@gmail.com" class="btn btn-primary btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    Say Hello
+                </a>
+                <div class="contact-links">
+                    <a href="mailto:avinashkumarjha516@gmail.com" class="contact-link" title="Email">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/avinash-kumar-jha-33ab73342/" target="_blank" class="contact-link" title="LinkedIn">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="https://github.com/Avinash7061" target="_blank" class="contact-link" title="GitHub">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                    <a href="tel:+917061845974" class="contact-link" title="Phone">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Designed & Built by <strong>Avinash Kumar Jha</strong></p>
+            <p class="footer-year">&copy; 2026 — All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
