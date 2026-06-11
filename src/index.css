@@ -136,6 +136,7 @@ img {
 .nav-links {
     display: flex;
     gap: 8px;
+    transition: var(--transition);
 }
 
 .nav-link {
@@ -175,6 +176,7 @@ img {
     border: none;
     cursor: pointer;
     padding: 4px;
+    z-index: 1001;
 }
 
 .nav-toggle span {
@@ -183,6 +185,17 @@ img {
     background: var(--text-primary);
     border-radius: 2px;
     transition: var(--transition);
+}
+
+/* Burger menu animation when active */
+.nav-toggle.active span:first-child {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.nav-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+.nav-toggle.active span:last-child {
+    transform: rotate(-45deg) translate(5px, -5px);
 }
 
 /* --- Hero Section --- */
@@ -844,6 +857,7 @@ img {
     justify-content: center;
     gap: 8px;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .agent-node {
@@ -1216,15 +1230,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    .nav-links, .nav-cta {
-        display: none;
-    }
-
-    .nav-toggle {
-        display: flex;
-    }
-
-    .nav-links.open {
+    .nav-links {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1233,8 +1239,28 @@ img {
         right: 0;
         background: var(--bg-glass);
         backdrop-filter: blur(20px) saturate(180%);
-        padding: 16px 24px;
+        padding: 0 24px;
         border-bottom: 1px solid var(--border);
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        pointer-events: none;
+        transition: max-height 0.4s ease, opacity 0.3s ease, padding 0.4s ease;
+    }
+
+    .nav-links.open {
+        max-height: 400px;
+        opacity: 1;
+        padding: 16px 24px;
+        pointer-events: auto;
+    }
+
+    .nav-cta {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
     }
 
     .hero {
@@ -1290,6 +1316,37 @@ img {
     }
 }
 
+@media (max-width: 480px) {
+    .hero-stats {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        width: 100%;
+    }
+    
+    .stat-divider {
+        display: none;
+    }
+
+    .hero-image-wrapper {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .mockup-list-item {
+        white-space: normal !important;
+        word-break: break-word !important;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-image-wrapper {
+        width: 180px;
+        height: 180px;
+    }
+}
+
 /* Ambient Background Blobs */
 .blob-bg {
     position: fixed;
@@ -1313,6 +1370,14 @@ img {
     bottom: 15%;
     right: -5%;
     animation: drift-blob-reverse 30s ease-in-out infinite alternate;
+}
+
+@media (max-width: 768px) {
+    .blob-bg {
+        width: 250px;
+        height: 250px;
+        filter: blur(60px);
+    }
 }
 
 @keyframes drift-blob {
