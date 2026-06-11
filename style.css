@@ -1366,3 +1366,43 @@ img {
         }
     }
 }
+
+/* Print Styling for PDF Generation */
+@media print {
+    html, body {
+        background: var(--bg-primary) !important;
+        color: var(--text-primary) !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* Hide pure interactive/animated elements that don't make sense on PDF */
+    .scroll-indicator,
+    .bg-particles,
+    .blob-bg {
+        display: none !important;
+    }
+
+    /* Avoid splitting sections, project cards, and timeline cards awkwardly across PDF pages */
+    section,
+    .project-card,
+    .timeline-item,
+    .cert-card {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    /* Layout adjustments for printing */
+    .section {
+        padding: 40px 0 !important;
+    }
+
+    .projects-list {
+        gap: 30px !important;
+    }
+
+    .project-card {
+        padding: 30px !important;
+        margin-bottom: 20px !important;
+    }
+}
