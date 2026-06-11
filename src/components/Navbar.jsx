@@ -52,7 +52,7 @@ export default function Navbar() {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} id="navbar">
       <div className="nav-container">
         <a href="#" className="nav-logo" onClick={(e) => handleLinkClick(e, '#home')}>
-          <span className="logo-bracket">&lt;</span>AKJ<span class="logo-bracket"> /&gt;</span>
+          <span className="logo-bracket">&lt;</span>AKJ<span className="logo-bracket"> /&gt;</span>
         </a>
         <div className={`nav-links ${isMenuOpen ? 'open' : ''}`} id="navLinks">
           {navItems.map((item) => (

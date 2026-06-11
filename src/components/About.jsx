@@ -6,7 +6,7 @@ export default function About() {
       <div className="section-container">
         <div className="section-header">
           <span className="section-tag">01. Introduction</span>
-          <h2 class="section-title">About Me</h2>
+          <h2 className="section-title">About Me</h2>
         </div>
         <div className="about-grid">
           <div className="about-text">
@@ -59,14 +59,12 @@ export default function About() {
               <div className="code-window-header">
                 <div className="code-dots">
                   <span className="dot red"></span>
-                  <span class="dot yellow"></span>
+                  <span className="dot yellow"></span>
                   <span className="dot green"></span>
                 </div>
                 <span className="code-filename">avinash.py</span>
               </div>
-              <pre className="code-content">
-                <code>
-<span className="code-keyword">class</span> <span className="code-class">Developer</span>:
+              <pre className="code-content"><code><span className="code-keyword">class</span> <span className="code-class">Developer</span>:
 {"    "}<span className="code-keyword">def</span> <span className="code-func">__init__</span>(self):
 {"        "}self.name = <span className="code-string">"Avinash Kumar Jha"</span>
 {"        "}self.role = <span className="code-string">"AI/ML Developer"</span>
@@ -78,12 +76,10 @@ export default function About() {
 
 {"    "}<span className="code-keyword">def</span> <span className="code-func">current_focus</span>(self):
 {"        "}<span className="code-keyword">return</span> {"{"}
-{"            "}<span className="code-string">"ai"</span>: [<span className="code-string">"BERT"</span>, <span class="code-string">"Transformers"</span>],
+{"            "}<span className="code-string">"ai"</span>: [<span className="code-string">"BERT"</span>, <span className="code-string">"Transformers"</span>],
 {"            "}<span className="code-string">"web"</span>: [<span className="code-string">"React"</span>, <span className="code-string">"FastAPI"</span>],
 {"            "}<span className="code-string">"passion"</span>: <span className="code-string">"Healthcare AI"</span>
-{"        "}{"}"}
-                </code>
-              </pre>
+{"        "}{"}"}</code></pre>
             </div>
           </div>
         </div>

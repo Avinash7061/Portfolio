@@ -137,7 +137,7 @@ export default function Hero() {
               <span className="stat-label">Projects</span>
             </div>
             <div className="stat-divider"></div>
-            <div class="stat">
+            <div className="stat">
               <Counter targetCount={6} /><span className="stat-plus">+</span>
               <span className="stat-label">Certifications</span>
             </div>
