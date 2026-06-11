@@ -64,21 +64,21 @@ export default function About() {
                 </div>
                 <span className="code-filename">avinash.py</span>
               </div>
-              <pre className="code-content"><code><span className="code-keyword">class</span> <span className="code-class">Developer</span>:
-{"    "}<span className="code-keyword">def</span> <span className="code-func">__init__</span>(self):
-{"        "}self.name = <span className="code-string">"Avinash Kumar Jha"</span>
-{"        "}self.role = <span className="code-string">"AI/ML Developer"</span>
-{"        "}self.university = <span className="code-string">"VGU, Jaipur"</span>
-{"        "}self.languages = [
-{"            "}<span className="code-string">"Python"</span>, <span className="code-string">"JavaScript"</span>,
-{"            "}<span className="code-string">"Java"</span>, <span className="code-string">"C"</span>
-{"        "}]
-
-{"    "}<span className="code-keyword">def</span> <span className="code-func">current_focus</span>(self):
-{"        "}<span className="code-keyword">return</span> {"{"}
-{"            "}<span className="code-string">"ai"</span>: [<span className="code-string">"BERT"</span>, <span className="code-string">"Transformers"</span>],
-{"            "}<span className="code-string">"web"</span>: [<span className="code-string">"React"</span>, <span className="code-string">"FastAPI"</span>],
-{"            "}<span className="code-string">"passion"</span>: <span className="code-string">"Healthcare AI"</span>
+              <pre className="code-content"><code><span className="code-keyword">class</span> <span className="code-class">Developer</span>:{"\n"}
+{"    "}<span className="code-keyword">def</span> <span className="code-func">__init__</span>(self):{"\n"}
+{"        "}self.name = <span className="code-string">"Avinash Kumar Jha"</span>{"\n"}
+{"        "}self.role = <span className="code-string">"AI/ML Developer"</span>{"\n"}
+{"        "}self.university = <span className="code-string">"VGU, Jaipur"</span>{"\n"}
+{"        "}self.languages = [{"\n"}
+{"            "}<span className="code-string">"Python"</span>, <span className="code-string">"JavaScript"</span>,{"\n"}
+{"            "}<span className="code-string">"Java"</span>, <span className="code-string">"C"</span>{"\n"}
+{"        "}]{"\n"}
+{"\n"}
+{"    "}<span className="code-keyword">def</span> <span className="code-func">current_focus</span>(self):{"\n"}
+{"        "}<span className="code-keyword">return</span> {"{"}{"\n"}
+{"            "}<span className="code-string">"ai"</span>: [<span className="code-string">"BERT"</span>, <span className="code-string">"Transformers"</span>],{"\n"}
+{"            "}<span className="code-string">"web"</span>: [<span className="code-string">"React"</span>, <span className="code-string">"FastAPI"</span>],{"\n"}
+{"            "}<span className="code-string">"passion"</span>: <span className="code-string">"Healthcare AI"</span>{"\n"}
 {"        "}{"}"}</code></pre>
             </div>
           </div>
