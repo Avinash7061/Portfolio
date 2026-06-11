@@ -151,7 +151,7 @@ export default function Hero() {
         <div className={`hero-image ${isVisible ? 'visible' : ''} animate-in delay-2`}>
           <div className="hero-image-wrapper">
             <div className="hero-image-glow"></div>
-            <img src="/profile.jpg" alt="Avinash Kumar Jha" className="hero-photo" />
+            <img src="./profile.jpg" alt="Avinash Kumar Jha" className="hero-photo" />
             <div className="hero-image-ring"></div>
           </div>
           <div className="floating-badge badge-1">
