@@ -31,9 +31,9 @@ export default function Projects() {
         </p>
       ),
       tech: ['Python', 'AI Agents', 'Web3', 'DeFi'],
-      liveLink: 'https://fluxaa.versal.app',
+      liveLink: 'https://fluxaa.vercel.app',
       codeLink: 'https://github.com/Avinash7061/Fluxa',
-      mockupUrl: 'fluxaa.versal.app',
+      mockupUrl: 'fluxaa.vercel.app',
       visualType: 'agent'
     },
     {
